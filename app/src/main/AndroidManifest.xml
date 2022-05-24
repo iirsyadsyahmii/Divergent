@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/greenlogo"
+        android:label="Eco-community"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Login">
+        <activity
+            android:name=".ChangePasswordAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".Your_Voucher"
+            android:exported="false" />
+        <activity
+            android:name=".Upload_Voucher"
+            android:exported="false" />
+        <activity android:name=".YourPoints" />
+        <activity android:name=".ProfileAdmin" />
+        <activity android:name=".R4uQR" />
+        <activity android:name=".R4uCongrats" />
+        <activity android:name=".Voucher4uDetails" />
+        <activity android:name=".RestaurantScanner" />
+        <activity android:name=".RewardsForYou" />
+        <activity android:name=".Congrats" />
+        <activity android:name=".VoucherQR" />
+        <activity android:name=".VoucherDetails3" />
+        <activity android:name=".VoucherDetails2" />
+        <activity android:name=".VoucherDetails" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".Registration2" />
+        <activity android:name=".Restaurant" />
+        <activity android:name=".Company" />
+        <activity android:name=".YourPage" />
+        <activity android:name=".company_details" />
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".Your_Rewards" />
+        <activity android:name=".Time_to_Donate" />
+        <activity android:name=".Time_to_Recycle" />
+        <activity android:name=".Scanner" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QR_Generator">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".TransactionHistory">
+
+        </activity>
+        <activity android:name=".RestaurantHistory">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
